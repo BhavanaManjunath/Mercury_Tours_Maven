@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite"  thread-count="1" parallel="tests">
+  <test name="Test">
+    <classes>
+      <class name="com.mercury.tours.BatchExcecution_smoke"/>
+      <class name="com.mercury.tours.Mercury_Sign_On_ActionClass_DragAndDrop"/>
+      <class name="com.mercury.tours.Mercury_Sign_On_getText2_DropDown_Example"/>
+      <class name="com.mercury.tours.Mercury_Sign_On_navigatealllinks"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
